@@ -41,7 +41,7 @@ A star schema optimized for queries on song play analysis. It was created using 
   - ```songs``` songs in music database
     - song_id, title, artist_id, year, duration
   - ```artists``` artists in music database
-    - artist_id, name, location, latitude, longitude
+    - artist_id, artist_name, artist_location, artist_latitude, artist_longitude
   - ```time``` timestamps of records in songplays broken down into specific units
     - start_time, hour, day, week, month, year, weekday
 
@@ -73,13 +73,13 @@ A star schema optimized for queries on song play analysis. It was created using 
 
 ## Screnshots:
 
-  ### Artists Table:
-  
-  ![2](https://user-images.githubusercontent.com/49449443/203073206-e2272c79-b74a-46ce-b869-37c983b821f3.png)
-
   ### Songs Table:
   
   ![3](https://user-images.githubusercontent.com/49449443/203073422-24ab6f93-cc42-49ef-8008-86e80a766e81.png)
+  
+  ### Artists Table:
+  
+  ![2](https://user-images.githubusercontent.com/49449443/203073206-e2272c79-b74a-46ce-b869-37c983b821f3.png)
   
   ### Time Table:
   
